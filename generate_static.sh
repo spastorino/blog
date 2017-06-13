@@ -5,3 +5,4 @@ find static/ -type f -name '*.html' -o -name '*.txt' -o -name '*.rss' | xargs se
 find static/ -type f -name '*.html' -o -name '*.txt' -o -name '*.rss' | xargs sed -i '' -e 's,http://fonts.googleapis.com,https://fonts.googleapis.com,g'
 find static/ -type f -name '*.html' -o -name '*.txt' -o -name '*.rss' | xargs sed -i '' -e 's,http://www.gravatar.com,https://www.gravatar.com,g'
 find static/ -type f -name '*.html' -o -name '*.txt' -o -name '*.rss' | xargs sed -i '' -e 's,http://code.jquery.com,https://code.jquery.com,g'
+find static/ -type f -name '*.html' -o -name '*.txt' -o -name '*.rss' | xargs sed -i '' -e 's,rss/index.html,rss/index.rss,g'
