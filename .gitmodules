@@ -1,0 +1,12 @@
+[submodule "themes/beautifulhugo"]
+	path = themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "public"]
+	path = public
+	url = git@github.com:spastorino/spastorino.github.io.git
+[submodule "static/why-rust"]
+	path = static/why-rust
+	url = git@github.com:spastorino/why-rust.git
+[submodule "static/intro-to-rust"]
+	path = static/intro-to-rust
+	url = git@github.com:spastorino/intro-to-rust.git
