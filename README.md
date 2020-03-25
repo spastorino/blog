@@ -9,7 +9,7 @@ and workshops.
 for i in static/why-rust static/intro-to-rust; do pushd $i; git pull; popd; done
 hugo -d public --minify --theme beautifulhugo
 pushd public
-git add
+git add .
 git commit -am "Deploy website"
 git push
 popd
