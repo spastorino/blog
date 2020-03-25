@@ -1,6 +1,5 @@
 ---
 title: "Bisecting Rust Compiler Regressions with cargo-bisect-rustc"
-date: 2019-12-18T16:00:00-03:00
 tags: ["rust", "debugging"]
 ---
 

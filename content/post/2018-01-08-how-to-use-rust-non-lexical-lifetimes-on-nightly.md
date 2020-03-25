@@ -1,6 +1,5 @@
 ---
 title: "How to Use Rust Non Lexical Lifetimes on Nightly"
-date: 2018-01-08T16:00:00-03:00
 tags: ["rust", "lifetimes"]
 ---
 
