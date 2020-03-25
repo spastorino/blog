@@ -10,8 +10,11 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 googleAnalytics = "UA-89777501-1"
 
+[frontmatter]
+  date = [":filename", ":default"]
+
 [permalinks]
-  post = "/:slug/"
+  post = "/:year/:month/:day/:slug/"
 
 [params]
   subtitle = "WyeWorks Co-Founder & Rust Compiler Team Contributor"
