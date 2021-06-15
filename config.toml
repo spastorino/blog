@@ -22,7 +22,6 @@ googleAnalytics = "UA-89777501-1"
   favicon = "images/favicon.ico"
   commit = false
   showRelatedPosts = true
-  useHLJS = true
   rss = true
 
 [author]
