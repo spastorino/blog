@@ -7,6 +7,9 @@
 [submodule "static/intro-to-rust"]
 	path = static/intro-to-rust
 	url = git@github.com:spastorino/intro-to-rust.git
+[submodule "static/contributing-to-rustc"]
+	path = static/contributing-to-rustc
+	url = git@github.com:spastorino/contributing-to-rustc.git
 [submodule "themes/beautifulhugo"]
 	path = themes/beautifulhugo
 	url = https://github.com/halogenica/beautifulhugo.git
